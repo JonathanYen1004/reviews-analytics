@@ -25,8 +25,8 @@ print(new[1])
 
 good = []
 for d in data:
-	if good in d:
-		good.append(d)
+    if 'good' in d:
+        good.append(d)
 print('there are total of ' , len(good), 'records')
 
 #word_count
@@ -41,9 +41,9 @@ for d in data:
 
 for word in wc:
 	if wc[word] > 1000000:
-	    print(word, wc[word])
-
+         print(word,wc[word])
 print(len(wc))
+
 
 while True:
 	word = input('please enter the word you would like to search: ')
